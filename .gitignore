@@ -1,0 +1,34 @@
+# ───────── Python build / bytecode ─────────
+__pycache__/
+*.py[cod]
+*$py.class
+.build/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ───────── Virtual envs / Python tools ─────────
+.venv/
+venv/
+env/
+.conda/
+.python-version
+.mypy_cache/
+.pytype/
+.pyright/
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# ───────── Notebooks ─────────
+.ipynb_checkpoints/
+
+# ───────── Editors / IDEs ─────────
+.vscode/
+.idea/
+.fleet/
+*.co*
